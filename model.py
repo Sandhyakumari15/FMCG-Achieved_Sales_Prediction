@@ -3,7 +3,7 @@
 """
 Created on Tue Mar 17 03:28:58 2020
 
-@author: wanderer
+
 """
 
 import pandas as  pd
@@ -36,7 +36,7 @@ test1['SLSMAN_CD']=label_encoder.fit_transform(test1['SLSMAN_CD'])
 
 X = train1.iloc[:,0:4]
 Y = train1['ACH_IN_EA']  
-x=test1.iloc[:,0:4]
+
 
 X_matrix = X.as_matrix()
 Y_matrix = Y.as_matrix()
